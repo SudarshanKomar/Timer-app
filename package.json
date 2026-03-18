@@ -1,0 +1,19 @@
+{
+  "name": "timer-app",
+  "version": "1.0.0",
+  "description": "Timer application with Cypress testing",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "cd src && npx serve . -p 8000",
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run",
+    "test": "npm run start & npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.12.0",
+    "serve": "^14.2.6"
+  }
+}
